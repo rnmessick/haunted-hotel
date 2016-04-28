@@ -1,0 +1,28 @@
+body{
+	font-family: 'Architects Daughter', cursive;
+}
+
+form input{
+	background: white;
+	border: 2px solid black;
+	padding: 10px;
+	width: 100%;
+	font-size: 28px;
+}
+
+button.btn{
+	background: transparent;
+	color: purple;
+	cursor: pointer;
+	font-size: 30px;
+
+}
+.comments{
+	margin-right: 15px;
+	list-style: none;
+	padding: 10px;
+}
+	li{
+		padding-left: 10px;
+		font-size: 30px;
+	}
