@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Sorter</title>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="jquery_tablesorter/jquery-latest.js"></script> 
+	<script type="text/javascript" src="jquery_tablesorter/jquery.tablesorter.js"></script> 
+	<script type="text/javascript">
+		$(document).ready(function() {   		{ 
+        	$("#myTable").tablesorter(); 
+    		} 
+    		
+		}); 
+
+	</script>
+</head>
+<body>
+
+	<img src="haunted-house.jpg" alt="House" height="300px" width="400px">
+	<table id="myTable" class="tablesorter">
+	<thead>
+	<tr>
+		<th></th>
+		<th>What</th>
+		<th>Where</th>
+		<th>Why</th>
+		<th>Links</th>
+	</tr>
+	</thead>
+	<tbody>
+	<H3>Nearby Haunted Locations</H3>
+	<tr>
+		<td><img src="https://s-media-cache-ak0.pinimg.com/736x/b0/3b/46/b03b46c2774045e4401b77744604a587.jpg" alt="cemetery" height="100px" width="100px"></td>
+		<td>Black Diamond Cemetary </td>
+		<td>Cemetery Hill Rd., Black Diamond, Washington</td>
+		<td>Whistling and Voices in the wind.</td>
+		<td>Puget Sound Ghost Hunters <a href="https://www.scribd.com/doc/48655823/PSGH-Black-Diamond-Cemetery-Report"> Investigation Report</a></td>
+	</tr>
+	<tr>
+		<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/01/35/53/23/roche-harbor.jpg" alt="hotel" height="100px" width="100px"></td>
+		<td>Hotel de Haro</td>
+		<td>Roche Harbor, San Juan Islands</td>
+		<td>Sightings of a female apparition.</td>
+		<td><a href="http://www.rocheharbor.com/lodging/hotel-de-haro">Book a Room</a>  if you dare</td>
+	</tr>
+	<tr>
+		<td><img src="http://cdn.onlyinyourstate.com/wp-content/uploads/2015/07/Ezra_Meeker_Mansion_9-700x525.jpg" alt="mansion" height="100px" width="100px"></td>
+		<td>Meeker Mansion</td>
+		<td>Puyallup, Washington</td>
+		<td>Sightings of Ezra Meeker. Strong smell of Eliza's perfume.</td>
+		<td>Psychic Lynne Sutherland's <a href="https://lynnesutherlandolson.wordpress.com/2011/11/12/meeker-mansion-nov-2011/">Experience</a></td>
+	</tr>
+	</tbody>
+	</table>
+</body>
+</html>
